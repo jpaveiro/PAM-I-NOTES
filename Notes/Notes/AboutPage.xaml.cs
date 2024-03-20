@@ -10,6 +10,6 @@ public partial class AboutPage : ContentPage
 	private async void LearnMore_Clicked(object sender, EventArgs e)
 	{
 		
-		await Launcher.OpenAsync("https://www.x.com");
+		await Launcher.OpenAsync("https://www.google.com");
 	}
 }
