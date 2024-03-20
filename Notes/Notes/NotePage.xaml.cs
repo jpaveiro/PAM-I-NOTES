@@ -18,6 +18,7 @@ public partial class NotePage : ContentPage
     {
         text = FileEditor.Text;
         File.WriteAllText(path, text);
+        DisplayAlert("Sucesso", $"Arquivo salvo com sucesso no local: {path}" , "Ok");
     }
 
     private void DeleteButton_Clicked(object sender, EventArgs e)
